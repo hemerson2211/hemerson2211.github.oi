@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url('../img/fundo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    font-size: 35px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display:inline-block;
+}
+
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color:  white;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+nav ul li a:hover{
+    background-color: rgb(0, 123, 255);
+}
+.about{
+    margin-left: 8rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.about h1{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    font-size: 35px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.p{
+    list-style: none;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.logomg{
+    margin-right: 10px;
+}
+
+.projecto h1{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    font-size: 35px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.projecto ul{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.prjt{
+
+    margin-top: 10rem;
+    margin-left: 10rem;
+    font-size: 35px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    padding: 1rem 1rem;
+    background-color: #282828;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
