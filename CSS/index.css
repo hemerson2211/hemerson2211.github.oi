@@ -18,7 +18,7 @@ body{
     margin: 0 auto;
 }
 
-nav{
+.container nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -114,6 +114,7 @@ nav ul li a:hover{
 }
 
 footer{
+   
     width: 100%;
     padding: 1rem 1rem;
     background-color: #282828;
@@ -121,6 +122,36 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: fixed;
+}
+
+@media (max-width:575px){
+    .container nav{
+        flex-direction: column;
+    }
+
+    .about{
+       
+        margin-left: -10rem;
+    }
+    .about img{
+       
+        flex-direction: column;
+    }
+
+    .about ul{
+       
+        flex-direction: column;
+    }
+
+
+    .logomg{
+        margin-top: 20rem;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
 }
 
 
